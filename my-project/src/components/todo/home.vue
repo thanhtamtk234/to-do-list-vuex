@@ -6,18 +6,18 @@
     <div class="list_todos">
      <ul>
      <li v-for="(todo,index) in todosList" :key="index"
-        v-bind:class="{completed: todo.completed, editing: todo == edittingTodo}"
+        v-bind:class="{completed: todo.completed, editing: todo === edittingTodo}"
      >
        <div class="view" v-show="todo !== edittingTodo">
           <input class="toggle" type="checkbox" v-on:click="handleCheck(todo)" v-bind:checked="todo.done">
           <label @dblclick="editTodo(todo)" class="label_todo">{{todo.name}}</label>
-          <button class="destroy" @click="deleteTodo(todo)">Xóa</button>
+          <button class="destroy" @click="deleteTodo(index)">Xóa</button>
        </div>
        <input
           type="text"
           v-model="edittingTodo.name"
           class="edit_todo"
-          v-show="todo == edittingTodo"
+          v-show="todo === edittingTodo"
           @keyup.enter="saveTodo()"
        >
 
@@ -59,8 +59,8 @@ export default {
     editTodo (todo) {
       this.edittingTodo = todo
     },
-    deleteTodo (todo) {
-      this.$store.dispatch('deleteToDo', todo)
+    deleteTodo (index) {
+      this.$store.dispatch('deleteToDo', index)
     },
     saveTodo () {
       this.edittingTodo = {}

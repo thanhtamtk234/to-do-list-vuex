@@ -1,21 +1,18 @@
-import HelloWorld from './../components/HelloWorld'
 import All from './../components/todo/all'
-import Home from './../components/todo/home'
+import HomeList from './../components/todo/home'
 import Active from './../components/todo/active'
 import Completed from './../components/todo/completed'
 import VueRouter from 'vue-router'
 import Vue from 'vue'
+import Login from './../components/login'
+import Home from '../views/home'
+import ListProduct from '../components/admin/ListProduct'
 
 Vue.use(VueRouter)
 
 export default new VueRouter({
   mode: 'history',
   routes: [
-    {
-      path: '/hello',
-      name: 'HelloWorld',
-      component: HelloWorld
-    },
     {
       path: '/all',
       name: 'All',
@@ -32,9 +29,24 @@ export default new VueRouter({
       component: Completed
     },
     {
+      path: '/list',
+      name: 'Home',
+      component: HomeList
+    },
+    {
+      path: '/login',
+      name: 'Login',
+      component: Login
+    },
+    {
       path: '/',
       name: 'Home',
       component: Home
+    },
+    {
+      path: '/list-product',
+      name: 'ListProduct',
+      component: ListProduct
     }
   ]
 })

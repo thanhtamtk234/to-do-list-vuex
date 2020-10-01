@@ -1,27 +1,13 @@
 <template>
-<ValidationProvider rules="required"  v-slot="{ errors }">
-  <input v-model="todo" type="text">
-  <span>{{ errors[0] }}</span>
-</ValidationProvider>
-
+  <div>
+    <input v-model="todo" type="text">
+    <button @click = addTodo>Add</button>
+  </div>
 </template>
 <script>
-import { ValidationProvider } from 'vee-validate'
-import { extend } from 'vee-validate';
-
-extend('required', {
-  validate (value) {
-    return {
-      required: true,
-      // valid: ['', null, undefined].indexOf(value) === -1
-    };
-  },
-  computesRequired: true
-});
 
 export default {
   name: 'add',
-  components: {ValidationProvider},
   data () {
     return (
       {

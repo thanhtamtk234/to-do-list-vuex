@@ -16,7 +16,9 @@ export const store = new Vuex.Store({
     name: '',
     age: '',
     todos: [
-      { name: 'eat', done: false }
+      { name: 'eat', done: false },
+      { name: 'eat2', done: false }
+
     ]
   },
   getters: {

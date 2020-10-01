@@ -44,7 +44,7 @@ export default {
       }
     )
   },
-  computed: {
+  mounted: {
     listTodos () {
       return this.$store.state.todos
     }
