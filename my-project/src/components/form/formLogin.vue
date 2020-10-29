@@ -21,22 +21,22 @@
 </template>
 <script>
 import firebase from 'firebase'
-import FormSignUp from "./FormSignUp";
+import FormSignUp from './FormSignUp'
 export default {
   components: {FormSignUp},
   data () {
     return {
       email: '',
-      password: '',
+      password: ''
     }
   },
   methods: {
     async login () {
-      const auth = firebase.auth();
-      await auth.setPersistence(firebase.auth.Auth.Persistence.LOCAL);
+      const auth = firebase.auth()
+      await auth.setPersistence(firebase.auth.Auth.Persistence.LOCAL)
       try {
-        await auth.signInWithEmailAndPassword(this.email, this.password);
-        window.location.href = router.pathname;
+        await auth.signInWithEmailAndPassword(this.email, this.password)
+        window.location.href = ''
       } catch (error) {
         console.log(error)
       }

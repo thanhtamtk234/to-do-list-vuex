@@ -1,56 +1,5 @@
 <template>
   <div class="header-top bg-light">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-6 col-lg-3">
-          <a href="index.html">
-            <img src='../../assets/logo.png' alt="Image" class="img-fluid">
-          </a>
-        </div>
-        <div class="col-lg-3 d-none d-lg-block">
-
-          <div class="quick-contact-icons d-flex">
-            <div class="icon align-self-start">
-              <span class="flaticon-placeholder text-primary"></span>
-            </div>
-            <div class="text">
-              <span class="h4 d-block">Quận 12, Hồ Chí Minh</span>
-              <span class="caption-text">Quận 12</span>
-            </div>
-          </div>
-
-        </div>
-        <div class="col-lg-3 d-none d-lg-block">
-          <div class="quick-contact-icons d-flex">
-            <div class="icon align-self-start">
-              <span class="flaticon-call text-primary"></span>
-            </div>
-            <div class="text">
-              <span class="h4 d-block">0123455678</span>
-              <span class="caption-text">Liên hệ </span>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 d-none d-lg-block">
-          <div class="quick-contact-icons d-flex">
-            <div class="icon align-self-start">
-              <span class="flaticon-email text-primary"></span>
-            </div>
-            <div class="text">
-              <span class="h4 d-block">tam@gmail.com</span>
-              <span class="caption-text"></span>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-6 d-block d-lg-none text-right">
-          <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span
-            class="icon-menu h3"></span></a>
-        </div>
-      </div>
-    </div>
-
     <div class="site-navbar py-2 js-sticky-header site-navbar-target d-none pl-0 d-lg-block" role="banner">
 
       <div class="container">
@@ -60,24 +9,19 @@
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none pl-0 d-lg-block">
                 <li class="active">
-                  <a href="index.html" class="nav-link text-left">Home</a>
+                  <a href="/" class="nav-link text-left">Home</a>
                 </li>
+                <li><a href="#" class="nav-link text-left">About</a></li>
                 <li>
-                  <a href="#" class="nav-link text-left">About Us</a>
+                  <a href="list-product" class="nav-link text-left">Product</a>
                 </li>
-                <li>
-                  <a href="#" class="nav-link text-left">Our Projects</a>
-                </li>
-                <li>
-                  <a href="#" class="nav-link text-left">Testimonials</a>
-                </li>
-                <li><a href="#" class="nav-link text-left">Blog</a></li>
+                <li><a href="#" class="nav-link text-left">News</a></li>
                 <li>
                   <a href="#" class="nav-link text-left">Contact</a>
                 </li>
-                <li>
-                  <b-button variant="primary" v-b-modal.modal-1>Login</b-button>
-                </li>
+<!--                <li>-->
+<!--                  <b-button variant="primary" v-b-modal.modal-1>Login</b-button>-->
+<!--                </li>-->
               </ul>
             </nav>
           </div>
@@ -204,7 +148,7 @@ export default {
   transition: 0s all;
   color: #343a40; }
 .site-navbar .site-navigation .site-menu .has-children .dropdown .active > a {
-  color: #ff5e15 !important; }
+  color: #175292 !important; }
 .site-navbar .site-navigation .site-menu .has-children .dropdown > li {
   list-style: none;
   padding: 0;
@@ -253,7 +197,7 @@ export default {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  background: #ff5e15;
+  background: #1c5e8a;
 }
 .sticky-wrapper .site-navbar .site-logo a {
   color: #000; }

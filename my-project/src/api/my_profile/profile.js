@@ -2,17 +2,14 @@
 import firebase from 'firebase'
 
 export const getProfileUser = async () => {
-  debugger
   const db = firebase.firestore()
   const user = firebase.auth().currentUser
   // if (!user) return {}
   const uid = user.uid.toString()
-  debugger
   const result = await db
     .collection('my-project-vue')
     .doc(uid)
     .get()
-  debugger
   const userProviders = getUserProviders(user.providerData)
 
   if (result && result.data()) { return { ...result.data(), providers: userProviders } }
@@ -34,7 +31,6 @@ export const saveProfileUser = async (userProfile) => {
   const user = firebase.auth().currentUser
   if (!user) return null
   const uid = user.uid.toString()
-  debugger
   await db
     .collection('user')
     .doc(uid)

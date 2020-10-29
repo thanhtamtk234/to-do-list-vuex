@@ -2,13 +2,19 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import router from './router'
-import { BootstrapVue } from 'bootstrap-vue'
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import AppToDo from './App'
 import {store} from './store/store'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import firebase from 'firebase'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faSpinner } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
+library.add(faSpinner)
+
+Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.config.productionTip = false
 
 const firebaseConfig = {
@@ -23,7 +29,7 @@ const firebaseConfig = {
 }
 firebase.initializeApp(firebaseConfig)
 Vue.use(BootstrapVue)
-
+Vue.use(IconsPlugin)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

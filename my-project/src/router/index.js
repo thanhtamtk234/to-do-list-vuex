@@ -6,7 +6,9 @@ import VueRouter from 'vue-router'
 import Vue from 'vue'
 import Login from './../components/login'
 import Home from '../views/home'
-import ListProduct from '../components/admin/ListProduct'
+import ListProduct from '../views/list_product'
+import Test from '../views/test'
+import Admin from '../views/admin'
 
 Vue.use(VueRouter)
 
@@ -47,6 +49,21 @@ export default new VueRouter({
       path: '/list-product',
       name: 'ListProduct',
       component: ListProduct
-    }
+    },
+    {
+      path: '/test',
+      name: 'Test',
+      component: Test
+    },
+
+    {
+      path: '/admin',
+      name: 'Admin',
+      component: Admin,
+      meta: {
+        header: 0
+      }
+    },
+    { path: '*', redirect: '/' }
   ]
 })

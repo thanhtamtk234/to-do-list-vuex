@@ -11,8 +11,8 @@
 </template>
 <script>
 import firebase from 'firebase'
-import {getProfileUser} from '../api/my_profile/profile'
-import FormLogin from "./form/formLogin";
+import { getProfileUser } from '../api/my_profile/profile'
+import FormLogin from './form/formLogin'
 export default {
   components: {FormLogin},
   data () {
@@ -31,8 +31,10 @@ export default {
       }).catch((err) => {
         alert(err.message)
       })
-      if (auth.currentUser) await getProfileUser()
-    },
+      if (!auth.currentUser) return
+      const user = await getProfileUser()
+      await this.$store.dispatch('setUser', user)
+    }
   }
 }
 </script>

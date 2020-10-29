@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3e8c18e5-9121-4a75-9c3b-b044c2930c24" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/my-project/src/api/key.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-project/src/api/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-project/src/assets/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-project/src/assets/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-project/src/assets/styles.owl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-project/src/components/layout/footer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-project/src/components/layout/slide.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-project/src/components/layout/slideItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-project/src/components/product/ListProduct.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-project/src/views/admin.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-project/src/views/list_product.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-project/src/views/login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-project/src/views/test.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/build/vue-loader.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/build/vue-loader.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/build/webpack.base.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/build/webpack.base.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/build/webpack.dev.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/build/webpack.dev.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/build/webpack.prod.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/build/webpack.prod.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/api/my_profile/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/src/api/my_profile/profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/assets/about_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/assets/hero_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/assets/img_transparent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/assets/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/assets/person_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/assets/person_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/assets/person_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/assets/person_3_sq.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/assets/person_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/assets/person_4_sq.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/assets/post_h_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/assets/works_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/assets/works_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/assets/works_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/assets/works_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/components/ModalSignIn.vue" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/src/components/ModalSignIn.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/components/admin/ListProduct.vue" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/src/components/admin/ListProduct.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/components/form/FormSignUp.vue" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/src/components/form/FormSignUp.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/components/form/formLogin.vue" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/src/components/form/formLogin.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/components/layout/header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/src/components/layout/header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/components/layout/side.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/src/store/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/views/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/src/views/home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/test/e2e/runner.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/test/e2e/runner.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="ProjectId" id="1iARy22L4lQOL14PU7cOAkT3Mtz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/my-project/src/views" />
+      <recent name="$PROJECT_DIR$/my-project/src/utils" />
+      <recent name="$PROJECT_DIR$/my-project/src" />
+      <recent name="$PROJECT_DIR$/my-project/src/assets" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e8c18e5-9121-4a75-9c3b-b044c2930c24" name="Default Changelist" comment="" />
+      <created>1601348661659</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601348661659</updated>
+      <workItem from="1601348663494" duration="13171000" />
+      <workItem from="1601372504540" duration="435000" />
+      <workItem from="1601374294398" duration="2199000" />
+      <workItem from="1601378288720" duration="456000" />
+      <workItem from="1601430900075" duration="11562000" />
+      <workItem from="1601453507018" duration="7383000" />
+      <workItem from="1601517494525" duration="6657000" />
+      <workItem from="1601531772571" duration="15841000" />
+      <workItem from="1603680372270" duration="18199000" />
+      <workItem from="1603722216823" duration="367000" />
+      <workItem from="1603762797260" duration="20647000" />
+      <workItem from="1603935711008" duration="3089000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="458" y="196" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601352790804">
+      <screen x="0" y="23" width="1440" height="839" />
+    </state>
+    <state x="458" y="196" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1440.23.1920.1057/0.23.1440.839@0.23.1440.839" timestamp="1601352790804" />
+    <state x="518" y="363" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603765424318">
+      <screen x="0" y="23" width="1440" height="839" />
+    </state>
+    <state x="518" y="363" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.839@0.23.1440.839" timestamp="1603765424318" />
+    <state x="418" y="197" width="604" height="548" key="find.popup" timestamp="1603794071183">
+      <screen x="0" y="23" width="1440" height="839" />
+    </state>
+    <state x="418" y="197" width="604" height="548" key="find.popup/0.23.1440.839@0.23.1440.839" timestamp="1603794071183" />
+    <state x="418" y="197" width="604" height="490" key="find.popup/1440.23.1920.1057/0.23.1440.839@0.23.1440.839" timestamp="1601374588440" />
+    <state x="385" y="186" width="670" height="676" key="search.everywhere.popup" timestamp="1603938307681">
+      <screen x="0" y="23" width="1440" height="839" />
+    </state>
+    <state x="385" y="186" width="670" height="676" key="search.everywhere.popup/0.23.1440.839@0.23.1440.839" timestamp="1603938307681" />
+    <state x="385" y="186" width="670" height="676" key="search.everywhere.popup/1440.23.1920.1057/0.23.1440.839@0.23.1440.839" timestamp="1601375746504" />
+  </component>
+</project>

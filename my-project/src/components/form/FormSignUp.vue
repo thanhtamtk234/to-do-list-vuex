@@ -21,7 +21,7 @@
 </template>
 <script>
 import firebase from 'firebase'
-import {getProfileUser} from "../../api/my_profile/profile";
+import {getProfileUser} from '../../api/my_profile/profile'
 export default {
   name: 'FormSignUp',
   data () {
@@ -35,7 +35,7 @@ export default {
     async signUpWithEmail () {
       const auth = firebase.auth()
       // await auth.setPersistence(firebase.auth.Auth.Persistence.LOCAL)
-      await auth.createUserWithEmailAndPassword(this.email, this.password);
+      await auth.createUserWithEmailAndPassword(this.email, this.password)
       await getProfileUser()
     }
   }

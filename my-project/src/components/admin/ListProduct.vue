@@ -11,7 +11,7 @@ export default {
     return {
       product: {
         name: '',
-        price: '',
+        price: ''
       }
     }
   }

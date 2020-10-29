@@ -1,17 +1,26 @@
 <template>
   <div id="app">
     <Header/>
-<!--    <Side/>/-->
     <router-view></router-view>
   </div>
 </template>
 
 <script>
 import Header from './components/layout/Header'
-import Side from './components/layout/side'
+import Home from './components/user/home'
 export default {
   name: 'app',
-  components: {Side, Header}
+  components: {Home, Header},
+  data () {
+    return {
+      user: ''
+    }
+  },
+  mounted () {
+    console.log(this.$router.meta)
+  },
+  methods: {
+  }
 }
 </script>
 
